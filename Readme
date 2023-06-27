@@ -1,0 +1,33 @@
+# Tic Tac Toe Game
+
+This is a console-based implementation of the Tic Tac Toe game in Java.
+
+## Game Description
+
+Tic Tac Toe is a two-player game played on a 3x3 grid. The players take turns marking a cell with their respective symbols, usually 'X' and 'O', until one player successfully aligns three symbols in a row, column, or diagonal, or all cells are filled without a winner, resulting in a draw.
+
+## Features
+
+- Two-player gameplay: Play against a friend on the same computer.
+- Interactive console interface: The game is played on the command line interface, providing a simple and intuitive user experience.
+- Error handling: Prevents invalid moves and displays appropriate error messages.
+- Win detection: Detects winning moves and announces the winner at the end of the game.
+- Draw detection: If no winner is found after all cells are filled, the game declares a draw.
+
+## Getting Started
+
+To run the Tic Tac Toe game locally on your machine, follow these steps:
+
+Clone the repository:
+
+1.Navigate to the project directory:
+
+    cd tic-tac-toe
+
+2.Compile the Java source code:
+
+    javac TicTacToe.java
+
+3.Run the game:
+
+    java TicTacToe
